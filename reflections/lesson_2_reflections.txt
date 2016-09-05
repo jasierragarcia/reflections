@@ -2,3 +2,9 @@ What happens when you initialize a repository? Why do you need to do it?
     - Git creates a .git sub directory where it keeps all the metadata
         for the repository. I need it to start tracking the progress/changes
         in my project.
+        
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+    1.) Staging Area: Is where you pick the files you want to commit to your repo.
+    2.) Working Directory: Is where all your files reside.
+    3.) Repository: Where the files and commit history will go.
+    - Gives you a chance a to take a look and think about what you are about to commit.
