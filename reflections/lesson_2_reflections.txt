@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+    - Git creates a .git sub directory where it keeps all the metadata
+        for the repository. I need it to start tracking the progress/changes
+        in my project.

@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+    - I was bale to look at was added added in the new file and the default content in the old file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+    - Debugging would be a lot easier and you can revert to a previous version immediately if your code got way too messy.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+    1.) You get to save/commit when you with a detailed message of what was added/edited.
+    2.) You can keep your commit history relevant.
+    3.) Detailed messages in your commit of logical changes
+    4.) You can commit your changes if you are offline then push them all when you are online
+    
+Cons:
+    1.) You can forget to commit your progress if you get lost/carried away implementing a new feature.
+    2.) If you are not thoughtful about your commits then your commit history can get long and confusing, not relevant.
+    
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+    - Because that way your commit history won't look chaotic.
+    
+How can you use the commands git log and git diff to view the history of files?
+    - You can use them to view what was added and deleted by you or anyone else working
+        on the same project or any project.
+        
+How might using version control make you more confident to make changes that could break something?
+    - Knowing that I can go back and compare versions/snapshots of previous files really
+        makes things easier, instead of having to do it the hard/manual way.
+        
+Now that you have your workspace set up, what do you want to try using Git for?
+    - Work on projects more efficiently and proactively.
