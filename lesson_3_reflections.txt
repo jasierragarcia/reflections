@@ -7,3 +7,22 @@ having Git automatically stay up-to-date with your remote repository?
     - Because you might want to know why you are pulling the changes from
         the remote repo, because you don't know if the latest build is
         going to break your working build.
+        
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+    Fork:
+        - fork are similar to clones, but the only reason to fork it's if you don't have permission
+            to make changes to original repository.
+            
+            Forking makes a copy of the repo in your github for your own use. Similar to cloning
+            but not really.
+            
+    Clone:
+        - You would clone a repo for a repo that you own and if you were granted permission
+            from owner of some repo.
+            
+    Branch:
+        - Branches are part of forks and clones and you can also create your own branches,
+            if you decided to work on a experimental/special feature that might break the 
+            master branch. When the feature is ready for production code then you can merge it to
+            the master branch or you can keep in the branch of its own, or you can do the other
+            way around, merge the master branch to your exp/special branch that you are working on.
