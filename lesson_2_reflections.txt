@@ -19,3 +19,30 @@ How can you use the staging area to make sure you have one commit per logical ch
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
     - When you want to add a experimental feature or if you want to add anything without breaking the master branch
     - Branches help with keeping your master branch clean.
+    
+How do the diagrams help you visualize the branch structure?
+    - They help you create a mental picture of your or someone's project branch.
+    
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+    - The changes of the branch merged into the master branch are added along with the deletions.
+    - Because that way you can have a mental visualization of what the merge looks like.
+    
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+    Automatic merging -
+        Pros:
+            1.) If there are no conflicts then your commits will merge smoothly.
+            2.) It won't require more time of your part.
+            
+        Cons: 
+            1.) Most likely there are going to be conflicts when merging automatically, so you'll have
+                to go back and see where the conflict is.
+            2.) You are better off doing it manually if there are conflicts.
+        
+    Manually merging:
+        Pros:
+            1.) You get to see if there are any conflicts right there in front of you.
+            2.) You decided when is the right time to merge.
+        
+        Cons:
+            1.) Requires more of your time.
+            2.) The conflicts might sometimes be complex if you are working in teams.
