@@ -26,3 +26,7 @@ Describe the differences between forks, clones, and branches. When would you use
             master branch. When the feature is ready for production code then you can merge it to
             the master branch or you can keep in the branch of its own, or you can do the other
             way around, merge the master branch to your exp/special branch that you are working on.
+            
+What is the benefit of having a copy of the last known state of the remote stored locally?
+    - The benefit is that you'll be able to work offline and you can merge/push your changes to github when
+        you are back online.
