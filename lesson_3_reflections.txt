@@ -36,3 +36,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
         flash drives. But that would be chaos since you have to keep passing it around updating the files.
         I don't think anything would be easier without git or github. It would be hard t keep updating the flash drives
         with up-to-date files of the project you are working on.
+        
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+    - Whenever you want to implement a new feature or experiment with a framework, etc...The benefit of this,
+        is that you don't have to mess/ break master branch. Your master branch will be clean and free of any bugs
+        that might break it.
